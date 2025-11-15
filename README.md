@@ -96,32 +96,31 @@ Three core SQL tables:
 _You can access the Queries File_ [here](https://github.com/0lait0n/CPI-Canada-Price-Trends-Affordability-Analysis/blob/main/CPI_Queries.sql)
 
 # 🚦 4. Power BI Dashboard — CPI Canada 2025 Insights
-![](CPI_Dashboard.jpg)
-A clean, interactive Power BI report built to explore:
-## ⭐ Seasonality
-• Identify the months where items are cheapest or most expensive
-• Help shoppers plan cost-effective purchases
+***<p align="justify"> Created an interactive dashboard and performed exploratory analysis of CPI category dynamics from 2023-2025. Key work included KPI/dashboard design, monthly trend analysis, identification of top contributors to headline CPI (Gasoline, Energy, Alcoholic beverages, Food, Shelter), and recommendations for deeper decomposition and forecasting. The insights highlight energy and food as primary inflation drivers and recommend targeted investigations and forecasting to support policy and business decisions.***
+</p>
 
-## ⭐ Trap Index
-• Reveal price dips that rebound quickly
-• Helps avoid fake discount periods
+![](Dashboard_2.jpg)
 
-## ⭐ Paycheck Pain
-• Hours of work needed each month
-• Shows real affordability beyond CPI numbers
+***<p align="justify"> This analysis uses CPI (Consumer Price Index) level and product-category data to identify where inflationary pressure is strongest in Canada during 2023-2025. Key high-level findings from the dashboard:***
+</P>
 
-_You can access the Power BI File_ [here](https://github.com/0lait0n/CPI-Canada-Price-Trends-Affordability-Analysis/blob/main/CPI%20Dashboard.pbix)
+- Total CPI (Jan–Sep 2025): 80.92K (dashboard aggregate value)
+- Most expensive average value: 2.48K (highest category mean shown)
+- Cheapest average value: 2.40K (lowest category mean shown)
+- The narrow gap between most-expensive and cheapest average values suggests most categories are clustered in a similar range with a few outliers driving larger changes
+- Top five most expensive product categories (by value): - Gasoline — 229, Energy — 206, Alcoholic beverages, tobacco & recreational cannabis — 197, Food — 191, and Shelter — 182 respectively.
 
+***<p align="justify">These indicators show energy-related products (Gasoline, Energy) and discretionary/regulated goods (alcoholic beverages, tobacco) are the largest contributors to the CPI level in the observed period.***
+</p>
 
-# 💡 Recommendations
-## 👤 For Consumers
-- Buy according to seasonal patterns
-- Avoid discounts that historically rebound within 1–2 months
-## 🏛️ For Policymakers
-- Improve transparency around product price cycles
-- Prioritize support for items with rising paycheck pain
-## 📊 For Analysts & Businesses
-- Monitor CPI trends monthly
+## 📊 Key analytical insights
+- Energy is the dominant short-term driver. Gasoline and Energy are the top two categories by value. Price volatility in these categories (particularly gasoline) contributes disproportionately to monthly CPI movements.
+- Food inflation is persistent and steady. The Food trend line increases consistently; this suggests structural or supply-driven pressures rather than a single-month shock.
+- Concentration of high values in discretionary/regulated goods. Alcoholic beverages and tobacco appear as a top contributor, with an identifiable spike early in the year; this may reflect tax, supply, or demand seasonality.
+- Limited dispersion across category averages. The most expensive and cheapest averages are numerically close, implying that while individual categories spike, the bulk of categories remain within a tight band.
+- Seasonality and shocks visible. The stacked time series reveals seasonal dynamics and a notable drop in one major contributor in April 2025; worth investigating.
+
+_You can access the interactive Dashboard_ [here](https://github.com/0lait0n/CPI-Canada-Price-Trends-Affordability-Analysis/blob/main/CPI_Dashboard2.pbix)
 
 # 🧰 Tools & Technologies
 - Python (Pandas, NumPy):	Data cleaning & analysis
@@ -129,5 +128,9 @@ _You can access the Power BI File_ [here](https://github.com/0lait0n/CPI-Canada-
 - Power BI:	Visualization & dashboarding
 
 # ⭐ Final Summary
-<p align="justify"> It identifies the cheapest and most expensive months to buy products, detects short-term fake discounts, and shows how inflation increases the work hours needed to afford essentials.</p> 
+<p align="justify"> 
+This analysis addressed the challenge of understanding where inflationary pressures were concentrated within Canada’s 2025 Consumer Price Index. By breaking down monthly category movements and comparing the most expensive and least expensive product groups, the dashboard helped reveal how specific categories—particularly Gasoline, Energy, Food, and Alcoholic Beverages—were driving overall trends. The data clearly showed persistent food inflation, significant volatility in energy-related prices, and early-year spikes in regulated goods, all of which shaped the overall CPI trajectory from January to September 2025. </p>
+<p align="justify"> The insights from this work provide practical value for both economic monitoring and decision-making. The analysis highlights which categories have the greatest impact on household costs, enabling policymakers, businesses, and analysts to prioritize areas for deeper investigation or intervention. For example, energy price volatility suggests the need for targeted risk-management strategies, while the steady rise in food prices signals potential pressure on consumers and supply chains. Overall, the findings support more informed budgeting, forecasting, pricing decisions, and policy planning by clearly identifying the categories most responsible for shifts in inflation. </p>
+<p align="justify">It identifies the cheapest and most expensive months to buy products, detects short-term fake discounts, and shows how inflation increases the work hours needed to afford essentials.
+</p> 
 
